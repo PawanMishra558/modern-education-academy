@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Modern Education Academy</title>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+<style>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Poppins',sans-serif;
+}
+
+body{
+background:#f5f7fa;
+color:#333;
+}
+
+/* Header */
+header{
+background:linear-gradient(135deg,#0f2027,#203a43,#2c5364);
+color:white;
+padding:20px 0;
+text-align:center;
+}
+
+header h1{
+font-size:32px;
+}
+
+nav{
+margin-top:10px;
+}
+
+nav a{
+color:white;
+text-decoration:none;
+margin:0 15px;
+font-weight:500;
+}
+
+/* Hero */
+.hero{
+height:85vh;
+background:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url('https://images.unsplash.com/photo-1588072432836-e10032774350') center/cover;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+text-align:center;
+color:white;
+padding:20px;
+}
+
+.hero h2{
+font-size:40px;
+margin-bottom:20px;
+}
+
+.hero p{
+font-size:18px;
+margin-bottom:30px;
+}
+
+.btn{
+padding:12px 25px;
+background:#ff9800;
+color:white;
+text-decoration:none;
+border-radius:5px;
+font-weight:bold;
+}
+
+/* Section */
+.section{
+padding:60px 10%;
+text-align:center;
+}
+
+.section h2{
+margin-bottom:40px;
+color:#2c5364;
+font-size:28px;
+}
+
+/* Courses */
+.courses{
+display:flex;
+flex-wrap:wrap;
+justify-content:center;
+gap:25px;
+}
+
+.course-card{
+background:white;
+width:300px;
+padding:25px;
+border-radius:12px;
+box-shadow:0 10px 25px rgba(0,0,0,0.1);
+transition:0.3s;
+}
+
+.course-card:hover{
+transform:translateY(-8px);
+}
+
+.course-card h3{
+color:#0f2027;
+margin-bottom:15px;
+}
+
+/* Photo Section */
+.photo img{
+width:100%;
+max-width:600px;
+border-radius:12px;
+box-shadow:0 10px 25px rgba(0,0,0,0.2);
+}
+
+/* Contact */
+.contact{
+background:#2c5364;
+color:white;
+}
+
+/* Map */
+.map iframe{
+width:100%;
+height:350px;
+border-radius:12px;
+margin-top:30px;
+}
+
+/* Footer */
+footer{
+background:#0f2027;
+color:white;
+text-align:center;
+padding:15px;
+}
+
+/* WhatsApp Button */
+.whatsapp{
+position:fixed;
+bottom:20px;
+right:20px;
+background:#25D366;
+color:white;
+padding:12px 18px;
+border-radius:50px;
+text-decoration:none;
+font-weight:bold;
+}
+
+@media(max-width:768px){
+.hero h2{
+font-size:28px;
+}
+}
+</style>
+</head>
+
+<body>
+
+<header>
+<h1>Modern Education Academy</h1>
+<nav>
+<a href="#about">About</a>
+<a href="#courses">Courses</a>
+<a href="#contact">Contact</a>
+</nav>
+</header>
+
+<section class="hero">
+<h2>Bright Future Starts Here</h2>
+<p>Quality Education for Academic & Competitive Success</p>
+<a href="#contact" class="btn">Enroll Now</a>
+</section>
+
+<section id="about" class="section">
+<h2>About Us</h2>
+<p>Modern Education Academy provides quality coaching in Rasulpur, Muzaffarpur.  
+We focus on strong academic foundation and skill development.</p>
+</section>
+
+<section id="courses" class="section">
+<h2>Our Courses</h2>
+<div class="courses">
+
+<div class="course-card">
+<h3>Play to 8th (All Subjects)</h3>
+<p>Complete foundation classes for all subjects with expert teachers.</p>
+</div>
+
+<div class="course-card">
+<h3>9th & 10th (Math & Science)</h3>
+<p>Special focus on Mathematics & Science with board preparation.</p>
+</div>
+
+<div class="course-card">
+<h3>Spoken English</h3>
+<p>Improve speaking confidence, grammar & communication skills.</p>
+</div>
+
+<div class="course-card">
+<h3>Computer Classes</h3>
+<p>Basic Computer, DCA, ADCA, Tally & Practical Training.</p>
+</div>
+
+</div>
+</section>
+
+<section class="section photo">
+<h2>Our Achievement</h2>
+<img src="academy.webp" alt="Academy Photo">
+</section>
+
+<section id="contact" class="section contact">
+<h2>Contact Us</h2>
+<p><strong>Address:</strong> Near Satya ITI College, Salempur, Rasulpur, Muzaffarpur, Bihar 842004</p>
+<p><strong>Phone:</strong> 095702 88926</p>
+<p><strong>Timing:</strong> Open – Closes 9 PM</p>
+
+<div class="map">
+<iframe 
+src="https://www.google.com/maps?q=Rasulpur,Muzaffarpur,Bihar&output=embed">
+</iframe>
+</div>
+
+<br>
+<a href="tel:09570288926" class="btn">Call Now</a>
+</section>
+
+<footer>
+© 2026 Modern Education Academy | All Rights Reserved
+</footer>
+
+<a class="whatsapp" href="https://wa.me/919570288926" target="_blank">WhatsApp</a>
+
+</body>
+</html>
